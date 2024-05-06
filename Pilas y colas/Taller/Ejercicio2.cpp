@@ -19,6 +19,7 @@ struct Mercado {
 int main() {
     queue<Mercado> colaMercado;
     int op;
+    //menu inicial
     cout<<"Bienvenido esta es tu APP para tener tu lista de mercado "<<endl;
     cout<<"Empecemos por qué quieres hacer? \n";
     cout<<"1)Hacer una lista de mercado \n";
@@ -49,6 +50,7 @@ int main() {
         cout << "Lista creada con éxito. " << endl;
 
         do {
+            //menu principal
             cout << "Ahora, ¿qué quieres hacer? \n";
             cout << "1) Ver la lista \n";
             cout << "2) Borrar un elemento de la lista \n";
