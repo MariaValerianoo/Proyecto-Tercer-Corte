@@ -38,53 +38,53 @@ void inicializarMapas(map<string, pair<string, string>>& mapaColombia) {
     mapaColombia["Boyaca"] = make_pair("Tunja", "Templado");
     climasCapitales.insert({"Tunja", "Templado"});
 
-    mapaColombia["Caldas"] = make_pair("Manizales", "Templado");
-    climasCapitales.insert({"Manizales", "Templado"});
+    mapaColombia["Caldas"] = make_pair("Manizales", "Frio");
+    climasCapitales.insert({"Manizales", "Frio"});
 
-    mapaColombia["Caqueta"] = make_pair("Florencia", "Calido");
-    climasCapitales.insert({"Florencia", "Calido"});
+    mapaColombia["Caqueta"] = make_pair("Florencia", "Tropical");
+    climasCapitales.insert({"Florencia", "Tropical"});
 
-    mapaColombia["Casanare"] = make_pair("Yopal", "Templado");
-    climasCapitales.insert({"Yopal", "Templado"});
+    mapaColombia["Casanare"] = make_pair("Yopal", "Calido");
+    climasCapitales.insert({"Yopal", "Calido"});
 
-    mapaColombia["Cesar"] = make_pair("Valledupar", "Templado");
-    climasCapitales.insert({"Valledupar", "Templado"});
+    mapaColombia["Cesar"] = make_pair("Valledupar", "Calido");
+    climasCapitales.insert({"Valledupar", "Calido"});
 
-    mapaColombia["Choco"] = make_pair("Quibdo", "Templado");
-    climasCapitales.insert({"Quibdo", "Templado"});
+    mapaColombia["Choco"] = make_pair("Quibdo", "Tropical");
+    climasCapitales.insert({"Quibdo", "Tropical"});
 
-    mapaColombia["Cordoba"] = make_pair("Monteria", "Templado");
-    climasCapitales.insert({"Monteria", "Templado"});
+    mapaColombia["Cordoba"] = make_pair("Monteria", "Calido");
+    climasCapitales.insert({"Monteria", "Calido"});
 
-    mapaColombia["Cundinamarca"] = make_pair("Bogotá", "Templado");
-    climasCapitales.insert({"Bogotá", "Templado"});
+    mapaColombia["Cundinamarca"] = make_pair("Bogotá", "Frio");
+    climasCapitales.insert({"Bogotá", "Frio"});
 
-    mapaColombia["Guainia"] = make_pair("Puerto Inirida", "Templado");
-    climasCapitales.insert({"Puerto Inirida", "Templado"});
+    mapaColombia["Guainia"] = make_pair("Puerto Inirida", "Calido");
+    climasCapitales.insert({"Puerto Inirida", "Calido"});
 
-    mapaColombia["Guaviare"] = make_pair("San Jose del Guaviare", "Templado");
-    climasCapitales.insert({"San José del Guaviare", "Templado"});
+    mapaColombia["Guaviare"] = make_pair("San Jose del Guaviare", "Tropical");
+    climasCapitales.insert({"San José del Guaviare", "Tropical"});
 
-    mapaColombia["Huila"] = make_pair("Neiva", "Templado");
-    climasCapitales.insert({"Neiva", "Templado"});
+    mapaColombia["Huila"] = make_pair("Neiva", "Calido");
+    climasCapitales.insert({"Neiva", "Calido"});
 
-    mapaColombia["La guajira"] = make_pair("Riohacha", "Templado");
-    climasCapitales.insert({"Riohacha", "Templado"});
+    mapaColombia["La guajira"] = make_pair("Riohacha", "Calido");
+    climasCapitales.insert({"Riohacha", "Calido"});
 
-    mapaColombia["Magdalena"] = make_pair("Santa Marta", "Templado");
-    climasCapitales.insert({"Santa Marta", "Templado"});
+    mapaColombia["Magdalena"] = make_pair("Santa Marta", "Calido");
+    climasCapitales.insert({"Santa Marta", "Calido"});
 
-    mapaColombia["Meta"] = make_pair("Villavicencio", "Templado");
-    climasCapitales.insert({"Villavicencio", "Templado"});
+    mapaColombia["Meta"] = make_pair("Villavicencio", "Tropical");
+    climasCapitales.insert({"Villavicencio", "Tropical"});
 
     mapaColombia["Nariño"] = make_pair("Pasto", "Templado");
     climasCapitales.insert({"Pasto", "Templado"});
 
-    mapaColombia["Norte de Santander"] = make_pair("Cucuta", "Templado");
-    climasCapitales.insert({"Cucuta", "Templado"});
+    mapaColombia["Norte de Santander"] = make_pair("Cucuta", "Tropical");
+    climasCapitales.insert({"Cucuta", "Tropical"});
 
-    mapaColombia["Valle del cauca"] = make_pair("Cali", "Templado");
-    climasCapitales.insert({"Cali", "Templado"});
+    mapaColombia["Valle del cauca"] = make_pair("Cali", "calido");
+    climasCapitales.insert({"Cali", "calido"});
 }
 
 // Función para obtener ciudades que tienen un clima específico
